@@ -18,7 +18,6 @@ class Cart
             foreach ($books as $key => $qty) {
                 $product = new Product();
                 $product->setSlug('PRODUCT-' . $key);
-                $product->setUnitPrice(Product::PRICE);
                 $product->setPrice(Product::PRICE * $qty);
                 $product->setQuantity($qty);
 

@@ -10,9 +10,6 @@ class Product
     public $slug;
 
     /** @var float */
-    public $unitPrice = 0;
-
-    /** @var float */
     public $price = 0;
 
     /** @var int */
@@ -26,16 +23,6 @@ class Product
     public function setSlug(string $slug): void
     {
         $this->slug = $slug;
-    }
-
-    public function getUnitPrice(): float
-    {
-        return $this->unitPrice;
-    }
-
-    public function setUnitPrice(float $unitPrice): void
-    {
-        $this->unitPrice = $unitPrice;
     }
 
     public function getPrice(): float
