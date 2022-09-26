@@ -1,0 +1,21 @@
+{
+    "name": "stephanietln/kata",
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=8.1",
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\Calculator\\": "app/Calculator",
+            "App\\Entity\\": "app/Entity",
+            "App\\Service\\": "app/Service"
+        }
+    },
+    "authors": [
+        {
+            "name": "Stéphanie Tilin",
+            "email": "stephanie.tilin@gmail.com"
+        }
+    ]
+}
